@@ -1,0 +1,41 @@
+*{
+   box-sizing: border-box; 
+   
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('289ongo7.png');
+    
+}
+#books{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.book{
+    color:white;
+   
+    border:1px solid white;
+    border-radius:20px;
+    box-shadow: 5px 5px ;
+    padding: 20px;
+    
+
+}
+h1{
+    
+    color: rgb(221, 70, 44);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background-color: aliceblue;
+    
+}
+.book:hover{
+    background-color: #f8e0e0;
+    color: black;
+}
+h1:hover{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
